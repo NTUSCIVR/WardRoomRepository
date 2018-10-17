@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 5e39b04081d7ce04381f9ea451996e6a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box02
+    100004: Box03
+    100006: clo00204
+    100008: co00408
+    100010: co00412
+    100012: Cylinder01
+    100014: Cylinder02
+    100016: Cylinder03
+    100018: Cylinder04
+    100020: Cylinder05
+    100022: Cylinder10
+    100024: Cylinder11
+    100026: Cylinder12
+    100028: Cylinder13
+    100030: Cylinder14
+    100032: //RootNode
+    100034: Line01
+    100036: Line02
+    100038: Line04
+    100040: Plane01
+    100042: Plane02
+    100044: Plane03
+    100046: Plane04
+    100048: Plane05
+    100050: Plane06
+    100052: Plane07
+    100054: Plane08
+    100056: Plane09
+    100058: Plane10
+    100060: Plane11
+    100062: Plane12
+    100064: Plane13
+    100066: Plane14
+    100068: Plane15
+    100070: Plane16
+    100072: Plane17
+    100074: Plane18
+    100076: Plane19
+    100078: Plane20
+    100080: Plane22
+    400000: Box01
+    400002: Box02
+    400004: Box03
+    400006: clo00204
+    400008: co00408
+    400010: co00412
+    400012: Cylinder01
+    400014: Cylinder02
+    400016: Cylinder03
+    400018: Cylinder04
+    400020: Cylinder05
+    400022: Cylinder10
+    400024: Cylinder11
+    400026: Cylinder12
+    400028: Cylinder13
+    400030: Cylinder14
+    400032: //RootNode
+    400034: Line01
+    400036: Line02
+    400038: Line04
+    400040: Plane01
+    400042: Plane02
+    400044: Plane03
+    400046: Plane04
+    400048: Plane05
+    400050: Plane06
+    400052: Plane07
+    400054: Plane08
+    400056: Plane09
+    400058: Plane10
+    400060: Plane11
+    400062: Plane12
+    400064: Plane13
+    400066: Plane14
+    400068: Plane15
+    400070: Plane16
+    400072: Plane17
+    400074: Plane18
+    400076: Plane19
+    400078: Plane20
+    400080: Plane22
+    2100000: No Name
+    2100002: "\u955C\u5B50 Slot #2"
+    2100004: "\u955C\u5B50 Slot #1"
+    2100006: "\u5316\u5986\u54C1 Slot #1"
+    2100008: "\u74F6\u76D6"
+    2100010: 'Material #35 Slot #3'
+    2100012: "\u7EAF\u4E0D\u9508\u94A2"
+    2100014: 01 - Default
+    2100016: 'Material #57 Slot #2'
+    2100018: 'Material #57 Slot #1'
+    2100020: 'Material #68 Slot #2'
+    2100022: 'Material #68 Slot #1'
+    2100024: "\u95F9\u949F Slot #2"
+    2100026: "\u95F9\u949F Slot #1"
+    2300000: Box01
+    2300002: Box02
+    2300004: Box03
+    2300006: clo00204
+    2300008: co00408
+    2300010: co00412
+    2300012: Cylinder01
+    2300014: Cylinder02
+    2300016: Cylinder03
+    2300018: Cylinder04
+    2300020: Cylinder05
+    2300022: Cylinder10
+    2300024: Cylinder11
+    2300026: Cylinder12
+    2300028: Cylinder13
+    2300030: Cylinder14
+    2300032: Line01
+    2300034: Line02
+    2300036: Line04
+    2300038: Plane01
+    2300040: Plane02
+    2300042: Plane03
+    2300044: Plane04
+    2300046: Plane05
+    2300048: Plane06
+    2300050: Plane07
+    2300052: Plane08
+    2300054: Plane09
+    2300056: Plane10
+    2300058: Plane11
+    2300060: Plane12
+    2300062: Plane13
+    2300064: Plane14
+    2300066: Plane15
+    2300068: Plane16
+    2300070: Plane17
+    2300072: Plane18
+    2300074: Plane19
+    2300076: Plane20
+    2300078: Plane22
+    3300000: Box01
+    3300002: Box02
+    3300004: Box03
+    3300006: clo00204
+    3300008: co00408
+    3300010: co00412
+    3300012: Cylinder01
+    3300014: Cylinder02
+    3300016: Cylinder03
+    3300018: Cylinder04
+    3300020: Cylinder05
+    3300022: Cylinder10
+    3300024: Cylinder11
+    3300026: Cylinder12
+    3300028: Cylinder13
+    3300030: Cylinder14
+    3300032: Line01
+    3300034: Line02
+    3300036: Line04
+    3300038: Plane01
+    3300040: Plane02
+    3300042: Plane03
+    3300044: Plane04
+    3300046: Plane05
+    3300048: Plane06
+    3300050: Plane07
+    3300052: Plane08
+    3300054: Plane09
+    3300056: Plane10
+    3300058: Plane11
+    3300060: Plane12
+    3300062: Plane13
+    3300064: Plane14
+    3300066: Plane15
+    3300068: Plane16
+    3300070: Plane17
+    3300072: Plane18
+    3300074: Plane19
+    3300076: Plane20
+    3300078: Plane22
+    4300000: Plane18
+    4300002: Plane17
+    4300004: Line02
+    4300006: Plane16
+    4300008: Plane15
+    4300010: Line04
+    4300012: co00408
+    4300014: Cylinder10
+    4300016: Cylinder05
+    4300018: Cylinder12
+    4300020: Plane07
+    4300022: Plane04
+    4300024: Plane11
+    4300026: Plane12
+    4300028: Plane03
+    4300030: Plane08
+    4300032: Plane06
+    4300034: Plane19
+    4300036: Box01
+    4300038: Cylinder11
+    4300040: Cylinder13
+    4300042: Box03
+    4300044: Plane02
+    4300046: Cylinder14
+    4300048: Plane01
+    4300050: Plane22
+    4300052: Plane10
+    4300054: Plane13
+    4300056: Plane20
+    4300058: Box02
+    4300060: Plane09
+    4300062: Plane05
+    4300064: Cylinder03
+    4300066: Cylinder02
+    4300068: Cylinder04
+    4300070: Cylinder01
+    4300072: Line01
+    4300074: co00412
+    4300076: clo00204
+    4300078: Plane14
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
