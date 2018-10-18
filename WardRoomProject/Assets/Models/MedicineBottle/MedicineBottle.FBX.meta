@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 92f1cec5258a1394bbb0034df9759347
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Boole
+    100002: Boole1
+    100004: Boole2
+    100006: Bottle
+    100008: Camera
+    100010: Camera.target
+    100012: Cap_1
+    100014: Cap_11
+    100016: Cap_12
+    100018: Cap_2
+    100020: Cap_2 1
+    100022: Cap_21
+    100024: Cap_21 1
+    100026: Cap_22
+    100028: Cap_22 1
+    100030: Capsu
+    100032: Capsu1
+    100034: Capsu2
+    100036: Capsule
+    100038: Cylin
+    100040: Cylin1
+    100042: Cylinder
+    100044: Extru
+    100046: Extru1
+    100048: Extrude_NU
+    100050: Label
+    100052: Lid
+    100054: Light
+    100056: Light.target
+    100058: Light1
+    100060: Light2
+    100062: Light2.target
+    100064: Medicine
+    100066: Medicine_B
+    100068: //RootNode
+    100070: Null_
+    100072: Null_1
+    100074: Null_2
+    100076: Null_3
+    100078: Null_Objec
+    100080: Pill
+    100082: Pill1
+    100084: Pill2
+    100086: Round
+    100088: Round 1
+    100090: Round1
+    100092: Round1 1
+    100094: Round2
+    100096: Round3
+    100098: Rounding_1
+    100100: Rounding_2
+    100102: Rounding_2 1
+    400000: Boole
+    400002: Boole1
+    400004: Boole2
+    400006: Bottle
+    400008: Camera
+    400010: Camera.target
+    400012: Cap_1
+    400014: Cap_11
+    400016: Cap_12
+    400018: Cap_2
+    400020: Cap_2 1
+    400022: Cap_21
+    400024: Cap_21 1
+    400026: Cap_22
+    400028: Cap_22 1
+    400030: Capsu
+    400032: Capsu1
+    400034: Capsu2
+    400036: Capsule
+    400038: Cylin
+    400040: Cylin1
+    400042: Cylinder
+    400044: Extru
+    400046: Extru1
+    400048: Extrude_NU
+    400050: Label
+    400052: Lid
+    400054: Light
+    400056: Light.target
+    400058: Light1
+    400060: Light2
+    400062: Light2.target
+    400064: Medicine
+    400066: Medicine_B
+    400068: //RootNode
+    400070: Null_
+    400072: Null_1
+    400074: Null_2
+    400076: Null_3
+    400078: Null_Objec
+    400080: Pill
+    400082: Pill1
+    400084: Pill2
+    400086: Round
+    400088: Round 1
+    400090: Round1
+    400092: Round1 1
+    400094: Round2
+    400096: Round3
+    400098: Rounding_1
+    400100: Rounding_2
+    400102: Rounding_2 1
+    2000000: Camera
+    2100000: Mat12345
+    2100002: Mat12345678
+    2100004: GLASS_2
+    2100006: Mat1
+    2100008: Mat1234
+    2100010: Mat123456
+    2300000: Bottle
+    2300002: Cap_1
+    2300004: Cap_11
+    2300006: Cap_12
+    2300008: Capsu
+    2300010: Capsule
+    2300012: Cylin
+    2300014: Cylin1
+    2300016: Cylinder
+    2300018: Extru
+    2300020: Extru1
+    2300022: Extrude_NU
+    2300024: Label
+    2300026: Lid
+    2300028: Round2
+    2300030: Round3
+    2300032: Rounding_1
+    3300000: Bottle
+    3300002: Cap_1
+    3300004: Cap_11
+    3300006: Cap_12
+    3300008: Capsu
+    3300010: Capsule
+    3300012: Cylin
+    3300014: Cylin1
+    3300016: Cylinder
+    3300018: Extru
+    3300020: Extru1
+    3300022: Extrude_NU
+    3300024: Label
+    3300026: Lid
+    3300028: Round2
+    3300030: Round3
+    3300032: Rounding_1
+    4300000: Label
+    4300002: Lid
+    4300004: Bottle
+    4300006: Cylin
+    4300008: Extru
+    4300010: Round3
+    4300012: Cap_1
+    4300014: Cylin1
+    4300016: Extru1
+    4300018: Rounding_1
+    4300020: Cap_12
+    4300022: Cylinder
+    4300024: Extrude_NU
+    4300026: Round2
+    4300028: Cap_11
+    4300030: Capsule
+    4300032: Capsu
+    9500000: //RootNode
+    10800000: Light
+    10800002: Light1
+    10800004: Light2
+    6000828045688606266: Camera
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
