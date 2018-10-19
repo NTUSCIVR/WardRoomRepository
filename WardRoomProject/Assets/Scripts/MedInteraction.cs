@@ -4,31 +4,24 @@ namespace Valve.VR.InteractionSystem
 {
     //-------------------------------------------------------------------------
     [RequireComponent(typeof(Interactable))]
-    public class MyInteraction : MonoBehaviour
+    public class MedInteraction : MonoBehaviour
     {
         [SerializeField]
-        private Vector3 SinkHolePosition;
+        private Material HoverHighlight_Material;
         [SerializeField]
-        private Camera Eyes;
+        private Material Cap_Material;
+        [SerializeField]
+        private Material BottleMaterial;
 
         private Vector3 oldPosition;
         private Quaternion oldRotation;
-        private Animator TapAnimator;
-        private ParticleSystem Water;
-        private bool WaterRunning = false;
 
         private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers);
 
         //-------------------------------------------------
         void Awake()
         {
-            if (gameObject.name == "Tap")
-            {
-                TapAnimator = GetComponentInChildren<Animator>();
-                Water = GetComponentInChildren<ParticleSystem>();
-            }
-
-            if (gameObject.name != "Pill")
+            if (gameObject.name == "MedBottle")
             {
                 // Save our position/rotation so that we can restore it when we detach
                 oldPosition = transform.position;
@@ -42,6 +35,18 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         private void OnHandHoverBegin(Hand hand)
         {
+            if (gameObject.name == "MedBottle")
+                Debug.Log("Enter Bottle");
+            else if(gameObject.name == "Cap")
+            {
+                if (hand.otherHand.currentAttachedObject != null &&
+                    hand.otherHand.currentAttachedObject != gameObject)
+                {
+                    Debug.Log("Enter Cap");
+                    GameObject CapMesh = transform.GetChild(0).gameObject;
+                    CapMesh.GetComponent<MeshRenderer>().material = HoverHighlight_Material;
+                }
+            }
         }
 
 
@@ -50,6 +55,15 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         private void OnHandHoverEnd(Hand hand)
         {
+            if (gameObject.name == "Cap")
+            {
+                if (hand.otherHand.currentAttachedObject != null &&
+                    hand.otherHand.currentAttachedObject != gameObject)
+                {
+                    GameObject CapMesh = transform.GetChild(0).gameObject;
+                    CapMesh.GetComponent<MeshRenderer>().material = Cap_Material;
+                }
+            }
         }
 
 
@@ -63,40 +77,53 @@ namespace Valve.VR.InteractionSystem
             if (hand.GetStandardInteractionButtonDown())
             {
                 // Specific Interaction
-                if(gameObject.name == "Tap")
+                if(gameObject.name == "Cap")
                 {
-                    if(!WaterRunning)
-                    {
-                        if(!TapAnimator.GetCurrentAnimatorStateInfo(0).IsName("On"))
-                        {
-                            TapAnimator.Play("On");
-                        }
-                        Water.Play();
-                    }
-                    else
-                    {
-                        if (!TapAnimator.GetCurrentAnimatorStateInfo(0).IsName("Off"))
-                        {
-                            TapAnimator.Play("Off");
-                        }
-                        Water.Stop();
-                    }
-                    WaterRunning = !WaterRunning;
+                    // Open Cap
+                    gameObject.SetActive(false);
                 }
                 else
                 {
-                    // General Pick Up
+                    // Pick Up Bottle
                     if (hand.currentAttachedObject != gameObject)
                     {
-                        if (gameObject.name == "Pill")
-                        {
-                            GameObject Pill = transform.GetChild(0).gameObject;
-                            Pill.GetComponent<Rigidbody>().isKinematic = true;
-                            Pill.GetComponent<Rigidbody>().useGravity = false;
-                        }
+                        // Call this to continue receiving HandHoverUpdate messages,
+                        // and prevent the hand from hovering over anything else
+                        hand.HoverLock(GetComponent<Interactable>());
 
                         // Attach this object to the hand
                         hand.AttachObject(gameObject, attachmentFlags);
+                        GameObject BottleMesh = transform.Find("Cylinder02").gameObject;
+                        BottleMesh.GetComponent<MeshRenderer>().material = BottleMaterial;
+
+                        GameObject Cap = transform.Find("Cap").gameObject;
+                        if (Cap.GetComponent<MedInteraction>() == null)
+                        {
+                            MedInteraction CapScript = Cap.AddComponent<MedInteraction>();
+                            CapScript.HoverHighlight_Material = this.HoverHighlight_Material;
+                            CapScript.Cap_Material = this.Cap_Material;
+                        }
+                    }
+                    // Drop Bottle
+                    else
+                    {
+                        // Detach this object from the hand
+                        hand.DetachObject(gameObject);
+
+                        // Call this to undo HoverLock
+                        hand.HoverUnlock(GetComponent<Interactable>());
+
+                        // Restore position/rotation
+                        transform.position = oldPosition;
+                        transform.rotation = oldRotation;
+
+                        // Close Cap
+                        GameObject Cap = transform.Find("Cap").gameObject;
+                        GameObject CapMesh = Cap.transform.GetChild(0).gameObject;
+                        CapMesh.GetComponent<MeshRenderer>().material = Cap_Material;
+                        Destroy(Cap.GetComponent<MedInteraction>());
+                        Destroy(Cap.GetComponent<Interactable>());
+                        Cap.SetActive(true);
                     }
                 }
             }
@@ -124,43 +151,6 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         private void HandAttachedUpdate(Hand hand)
         {
-            if (hand.GetStandardInteractionButtonDown())
-            {
-                if (hand.currentAttachedObject == gameObject)
-                {
-                    if (gameObject.name == "Pill")
-                    {
-                        GameObject Pill = transform.GetChild(0).gameObject;
-                        Pill.GetComponent<Rigidbody>().isKinematic = false;
-                        Pill.GetComponent<Rigidbody>().useGravity = true;
-                    }
-                    else
-                    {
-                        // Restore position/rotation
-                        transform.position = oldPosition;
-                        transform.rotation = oldRotation;
-                    }
-
-                    // Detach this object from the hand
-                    hand.DetachObject(gameObject);
-                }
-            }
-            // Detect if Reach near mouth, true => kill pill
-            else
-            {
-                if (gameObject.name == "Pill")
-                {
-                    if (hand.currentAttachedObject == gameObject)
-                    {
-                        float Distance = Vector3.Distance(gameObject.transform.position, Eyes.transform.position);
-                        if (Distance <= 0.25f)
-                        {
-                            hand.DetachObject(gameObject);
-                            Destroy(gameObject);
-                        }
-                    }
-                }
-            }
         }
 
 
