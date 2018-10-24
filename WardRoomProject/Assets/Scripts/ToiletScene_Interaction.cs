@@ -1,21 +1,53 @@
-﻿using UnityEngine;
+﻿using cakeslice;
+using UnityEngine;
+
+//-------------------------------------------------------------------------
+/*
+ * This Script allows Pick up Interaction, a specific Interaction in Toilet Scene and Highlighting(Outline) of Interactable Objects.
+ * 
+ * Pick up: Records objects' original position -> Hair Trigger Down -> Pick up -> Hair Trigger Down Again -> Put back to recorded position
+ * 
+ * Specific: Hair Trigger Down when hovering over Tap Handler(When Water Particle System is Off) on Sink -> Play On Animation in TapHandler Animator Controller & Play Water Particle System
+ *           Hair Trigger Down when hovering over Tap Handler(When Water Particle System is On) on Sink -> Play Off Animation in TapHandler Animator Controller & Stop Water Particle System
+ * 
+ * HighLight(Outline): Hover over and stay on the Interactable Object with controller -> Outline will be shown
+ *                     Move controller away from Interactable Object -> Outline will be hidden
+ * 
+ * ***Note***
+ * ***For Interactions***
+ * Preparation: Have a Collider Component attached to the mesh object.
+ * Usage: Make an Empty GameObject as a parent of the said mesh object, add this script as a component of the Empty GameObject.
+ * 
+ * ***Note***
+ * ***For Highlight***
+ * It's related to a plugin Imported from Unity Asset Store.
+ * Related files are stored in Assets under OutlineEffect Folder.
+ * 
+ * Preparation: Have a Collider Component attached to the mesh object.
+ * Usage: Add OutlineEffect Script Component onto Camera GameObject.
+ *        Add Outline Script Component onto the mesh object mentioned in Preparation.
+ *        Keep it(Outline Script Component) disabled, unless you prefer the objects to be highlighted at the start.
+ *        Tweak with the variables in Inspector to suit your purpose/preference.
+ * 
+ * Extra Note: If you prefer auto enable of highlight on all objects with Outline Script Component, look into OutlineEffect Script, Un-Comment the codes in OnEnable().
+ *             It will auto enable all the Outline Script Components in the scene.
+ */
+//-------------------------------------------------------------------------
 
 namespace Valve.VR.InteractionSystem
 {
     //-------------------------------------------------------------------------
     [RequireComponent(typeof(Interactable))]
-    public class MyInteraction : MonoBehaviour
+    public class ToiletScene_Interaction : MonoBehaviour
     {
-        [SerializeField]
-        private Vector3 SinkHolePosition;
-        [SerializeField]
-        private Camera Eyes;
-
         private Vector3 oldPosition;
         private Quaternion oldRotation;
+
         private Animator TapAnimator;
         private ParticleSystem Water;
         private bool WaterRunning = false;
+
+        private Outline outline;
 
         private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers);
 
@@ -27,42 +59,39 @@ namespace Valve.VR.InteractionSystem
                 TapAnimator = GetComponentInChildren<Animator>();
                 Water = GetComponentInChildren<ParticleSystem>();
             }
+            
+            // Save our position/rotation so that we can restore it when we detach
+            oldPosition = transform.position;
+            oldRotation = transform.rotation;
 
-            if (gameObject.name != "Pill")
-            {
-                // Save our position/rotation so that we can restore it when we detach
-                oldPosition = transform.position;
-                oldRotation = transform.rotation;
-            }
+            outline = GetComponentInChildren<Outline>();
         }
-
-
+        
         //-------------------------------------------------
         // Called when a Hand starts hovering over this object
         //-------------------------------------------------
         private void OnHandHoverBegin(Hand hand)
         {
+            outline.enabled = true;
         }
-
-
+        
         //-------------------------------------------------
         // Called when a Hand stops hovering over this object
         //-------------------------------------------------
         private void OnHandHoverEnd(Hand hand)
         {
+            outline.enabled = false;
         }
-
-
+        
         //-------------------------------------------------
         // Called every Update() while a Hand is hovering over this object
         //-------------------------------------------------
         private void HandHoverUpdate(Hand hand)
         {
-            /* || ((hand.controller != null) && hand.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Grip))*/
-
             if (hand.GetStandardInteractionButtonDown())
             {
                 // Specific Interaction
+                // Play/Stop Tap Handle Animations & Water Particle System
                 if(gameObject.name == "Tap")
                 {
                     if(!WaterRunning)
@@ -88,36 +117,12 @@ namespace Valve.VR.InteractionSystem
                     // General Pick Up
                     if (hand.currentAttachedObject != gameObject)
                     {
-                        if (gameObject.name == "Pill")
-                        {
-                            GameObject Pill = transform.GetChild(0).gameObject;
-                            Pill.GetComponent<Rigidbody>().isKinematic = true;
-                            Pill.GetComponent<Rigidbody>().useGravity = false;
-                        }
-
                         // Attach this object to the hand
                         hand.AttachObject(gameObject, attachmentFlags);
                     }
                 }
             }
         }
-
-
-        //-------------------------------------------------
-        // Called when this GameObject becomes attached to the hand
-        //-------------------------------------------------
-        private void OnAttachedToHand(Hand hand)
-        {
-        }
-
-
-        //-------------------------------------------------
-        // Called when this GameObject is detached from the hand
-        //-------------------------------------------------
-        private void OnDetachedFromHand(Hand hand)
-        {
-        }
-
 
         //-------------------------------------------------
         // Called every Update() while this GameObject is attached to the hand
@@ -128,55 +133,14 @@ namespace Valve.VR.InteractionSystem
             {
                 if (hand.currentAttachedObject == gameObject)
                 {
-                    if (gameObject.name == "Pill")
-                    {
-                        GameObject Pill = transform.GetChild(0).gameObject;
-                        Pill.GetComponent<Rigidbody>().isKinematic = false;
-                        Pill.GetComponent<Rigidbody>().useGravity = true;
-                    }
-                    else
-                    {
-                        // Restore position/rotation
-                        transform.position = oldPosition;
-                        transform.rotation = oldRotation;
-                    }
+                    // Restore position/rotation
+                    transform.position = oldPosition;
+                    transform.rotation = oldRotation;
 
                     // Detach this object from the hand
                     hand.DetachObject(gameObject);
                 }
             }
-            // Detect if Reach near mouth, true => kill pill
-            else
-            {
-                if (gameObject.name == "Pill")
-                {
-                    if (hand.currentAttachedObject == gameObject)
-                    {
-                        float Distance = Vector3.Distance(gameObject.transform.position, Eyes.transform.position);
-                        if (Distance <= 0.25f)
-                        {
-                            hand.DetachObject(gameObject);
-                            Destroy(gameObject);
-                        }
-                    }
-                }
-            }
-        }
-
-
-        //-------------------------------------------------
-        // Called when this attached GameObject becomes the primary attached object
-        //-------------------------------------------------
-        private void OnHandFocusAcquired(Hand hand)
-        {
-        }
-
-
-        //-------------------------------------------------
-        // Called when another attached GameObject becomes the primary attached object
-        //-------------------------------------------------
-        private void OnHandFocusLost(Hand hand)
-        {
         }
     }
 }
