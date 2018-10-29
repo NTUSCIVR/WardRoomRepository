@@ -83,6 +83,8 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         private void OnHandHoverBegin(Hand hand)
         {
+            //when hand hover over object, highlight the hand
+            hand.gameObject.GetComponentInChildren<Outline>().enabled = true;
             if (!CapOpened)
             {
                 CapOutline.enabled = true;
@@ -100,6 +102,8 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         private void OnHandHoverEnd(Hand hand)
         {
+            //when hand move away from object, stop highlight for hand
+            hand.gameObject.GetComponentInChildren<Outline>().enabled = false;
             if (!CapOpened)
             {
                 CapOutline.enabled = false;
