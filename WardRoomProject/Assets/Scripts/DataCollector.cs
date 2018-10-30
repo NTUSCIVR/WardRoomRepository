@@ -15,6 +15,8 @@ public class DataCollector : MonoBehaviour {
     public string imagePath;
     [Tooltip("Selected hair index")]
     public int hairIndex;
+    [Tooltip("Gender selected")]
+    public GENDER gender;
 
     private void Awake()
     {
@@ -29,4 +31,9 @@ public class DataCollector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	}
+
+    public void Submit()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
 }

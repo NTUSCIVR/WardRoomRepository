@@ -12,16 +12,8 @@ public class AvatarSDKController : MonoBehaviour {
     //switch between cloud and offline, but keep it as cloud
     public SdkType sdkType;
 
-    //this is a list to contain data of all images stored in a folder
-    public List<TextAsset> images;
-
     //face type generates only the head portion of the user, head type generates the shoulders as well
     protected PipelineType pipelineType = PipelineType.FACE;
-
-    //index for the types of body to generate. all of these are prefabs with IK setup
-    public int bodyIndex = 0;
-    //list of all prefabs for body
-    public List<GameObject> bodies;
 
     public Text progressText;
 
@@ -52,17 +44,6 @@ public class AvatarSDKController : MonoBehaviour {
         {
             //generate the model only if imagepath is available
             GenerateModel();
-        }
-        else
-        {
-            //remove all the headless bodies
-            foreach(GameObject model in GameController.Instance.playerModels)
-            {
-                if (model.GetComponentInChildren<BodyAttachment>())
-                {
-                    //GameController.Instance.playerModels.Remove(model);
-                }
-            }
         }
     }
 
@@ -201,22 +182,13 @@ public class AvatarSDKController : MonoBehaviour {
         }
 
         GameObject head = null;
-        //find all the headless bodies that are in the scene
-        foreach (GameObject body in GameController.Instance.playerModels)
+        GameObject body = GameController.Instance.activeModel;
+        if (body.GetComponentInChildren<BodyAttachment>())
         {
-            if (body.GetComponentInChildren<BodyAttachment>())
-            {
-                //add head to the body
-                body.GetComponentInChildren<BodyAttachment>().AttachHeadToBody(head = Instantiate(avatarObject));
-                body.GetComponentInChildren<BodyAttachment>().RebuildBindpose();
-                Destroy(avatarObject);
-            }
-        }
-
-        if(haircutMesh == null)
-        {
-            var meshObject = Instantiate(GameController.Instance.hairs[DataCollector.Instance.hairIndex - haircuts.Length - 1]);
-            meshObject.transform.SetParent(head.transform.GetChild(0));
+            //add head to the body
+            body.GetComponentInChildren<BodyAttachment>().AttachHeadToBody(head = Instantiate(avatarObject));
+            body.GetComponentInChildren<BodyAttachment>().RebuildBindpose();
+            Destroy(avatarObject);
         }
     }
 

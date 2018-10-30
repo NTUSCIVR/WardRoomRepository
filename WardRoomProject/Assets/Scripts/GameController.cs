@@ -8,21 +8,13 @@ public class GameController : MonoBehaviour {
     
     public static GameController Instance;
 
-    [Tooltip("Place all existing objects of player models in this list to enable swapping")]
-    public List<GameObject> playerModels;
-    int modelIndex;
-    int modelPrevIndex;
+    [Tooltip("Male Model Prefab(?) for avatarSDK")]
+    public GameObject maleModelObject;
+    [Tooltip("Female Model Prefab(?) for avatarSDK")]
+    public GameObject femaleModelObject;
+    [Tooltip("The active model in use now")]
+    public GameObject activeModel;
     float userHeight = 1.8f;
-
-    [Tooltip("Place all existing mirrors in this list to enable swapping")]
-    public List<GameObject> mirrors;
-    int mirrorIndex;
-    int mirrorPrevIndex;
-
-    [Tooltip("Place all types of hair that is used with avatarSDK")]
-    public List<GameObject> hairs;
-
-    string userID;
 
     private void Awake()
     {
@@ -31,12 +23,8 @@ public class GameController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        modelIndex = 0;
-        playerModels[modelIndex].SetActive(true);
-        ScaleModel(playerModels[modelIndex]);
-
-        mirrorIndex = 0;
-        mirrors[mirrorIndex].SetActive(true);
+        //to do
+        //scale and activate current used model
     }
 	
 	// Update is called once per frame
@@ -52,39 +40,6 @@ public class GameController : MonoBehaviour {
         {
             CalibrateHeight();
         }
-
-        if(Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            IncreaseModelIndex();
-        }
-        if(Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            DecreaseModelIndex();
-        }
-
-        if(Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            IncreaseMirrorIndex();
-        }
-        if(Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            DecreaseMirrorIndex();
-        }
-    }
-
-    void ActivateModel()
-    {
-        //set previous model to inactive
-        playerModels[modelPrevIndex].SetActive(false);
-        //set current model to active
-        playerModels[modelIndex].SetActive(true);
-        ScaleModel(playerModels[modelIndex]);
-    }
-
-    void ActivateMirror()
-    {
-        mirrors[mirrorPrevIndex].SetActive(false);
-        mirrors[mirrorIndex].SetActive(true);
     }
 
     void CalibrateHeight()
@@ -100,73 +55,14 @@ public class GameController : MonoBehaviour {
                 break;
             }
         }
-        ScaleModel(playerModels[modelIndex]);
+        ScaleModel(activeModel);
     }
 
     void ScaleModel(GameObject model)
     {
-        //the model itself
-        GameObject go = GetModelObject(model);
-
         float modelHeight = model.GetComponent<BoxCollider>().bounds.extents.y * 2;
         //get the scale needed
         float ratio = userHeight / modelHeight;
-        go.transform.localScale = new Vector3(ratio, ratio, ratio);
-    }
-
-    GameObject GetModelObject(GameObject model)
-    {
-        //get the model object child
-        foreach(Transform child in model.transform)
-        {
-            if (child.tag == "Player")
-                return child.gameObject;
-        }
-        Debug.LogWarning("Model itself does not have a player tag, please check again");
-        return null;
-    }
-
-    public void IncreaseModelIndex()
-    {
-        modelPrevIndex = modelIndex;
-        ++modelIndex;
-        if(modelIndex >= playerModels.Count)
-        {
-            modelIndex = 0;
-        }
-        ActivateModel();
-    }
-
-    public void DecreaseModelIndex()
-    {
-        modelPrevIndex = modelIndex;
-        --modelIndex;
-        if(modelIndex < 0)
-        {
-            modelIndex = playerModels.Count - 1;
-        }
-        ActivateModel();
-    }
-
-    public void IncreaseMirrorIndex()
-    {
-        mirrorPrevIndex = mirrorIndex;
-        ++mirrorIndex;
-        if (mirrorIndex >= mirrors.Count)
-        {
-            mirrorIndex = 0;
-        }
-        ActivateMirror();
-    }
-
-    public void DecreaseMirrorIndex()
-    {
-        mirrorPrevIndex = mirrorIndex;
-        --mirrorIndex;
-        if(mirrorIndex < 0)
-        {
-            mirrorIndex = mirrors.Count - 1;
-        }
-        ActivateMirror();
+        model.transform.localScale = new Vector3(ratio, ratio, ratio);
     }
 }

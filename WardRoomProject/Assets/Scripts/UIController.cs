@@ -4,6 +4,12 @@ using System.IO;
 using UnityEngine.UI;
 using UnityEngine;
 
+public enum GENDER
+{
+    MALE,
+    FEMALE
+}
+
 //incharge of managing the ui elements on start scene
 public class UIController : MonoBehaviour {
 
@@ -34,6 +40,8 @@ public class UIController : MonoBehaviour {
 
     string userImagesDir;
     string hairPhotosDir;
+
+    GENDER gender;
 
 	// Use this for initialization
 	void Start () {
@@ -219,5 +227,20 @@ public class UIController : MonoBehaviour {
             //tell datacollector to start the next scene
             DataCollector.Instance.Submit();
         }
+    }
+
+    public void OnGenderButtonPressed(Button button)
+    {
+        if(gender == GENDER.MALE)
+        {
+            gender = GENDER.FEMALE;
+            button.GetComponentInChildren<Text>().text = "Female";
+        }
+        else
+        {
+            gender = GENDER.MALE;
+            button.GetComponentInChildren<Text>().text = "Male";
+        }
+        DataCollector.Instance.gender = gender;
     }
 }
