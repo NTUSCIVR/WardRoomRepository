@@ -41,11 +41,6 @@ namespace ItSeez3D.AvatarSdkSamples.Core
 
 		public void AttachHeadToBody (GameObject avatarHeadObject, string headObjectName = "HeadObject")
 		{
-			// delete all existing heads (if any)
-			foreach (var obj in transform.parent.GetComponentsInChildren<Transform> ())
-				if (obj.name == avatarHeadObject.name)
-					GameObject.Destroy (obj.gameObject);
-
 			if (body == null) {
 				Debug.LogError ("Please specify main body mesh object");
 				return;
