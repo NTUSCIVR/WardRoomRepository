@@ -8,11 +8,7 @@ public class Meal : MonoBehaviour {
     GameObjectRuntimeSet m_foods;
     [SerializeField]
     ScriptableEvent m_event;
-    [SerializeField]
-    VRTK_SnapDropZone m_snap1;
 
-    [SerializeField]
-    VRTK_SnapDropZone m_snap2;
     bool isDone = false;
 	// Update is called once per frame
 	void Update () {
@@ -22,9 +18,6 @@ public class Meal : MonoBehaviour {
             isDone = true;
             enabled = false;
         }
-        else
-        {
-            
-        }
+
     }
 }
