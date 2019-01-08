@@ -19,13 +19,13 @@ public class GameController : MonoBehaviour {
     private void Awake()
     {
         Instance = this;
-        if(DataCollector.Instance.imagePath != null)
-        {
-            if (DataCollector.Instance.gender == GENDER.MALE)
-                activeModel = Instantiate(maleModelObject);
-            else
-                activeModel = Instantiate(femaleModelObject);
-        }
+        //if(DataCollector.Instance.imagePath != null)
+        //{
+        //    if (DataCollector.Instance.gender == GENDER.MALE)
+        //        activeModel = Instantiate(maleModelObject);
+        //    else
+        //        activeModel = Instantiate(femaleModelObject);
+        //}
     }
 
     // Use this for initialization

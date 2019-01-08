@@ -54,7 +54,7 @@ namespace ItSeez3D.AvatarSdkSamples.Core
 
 			var bodyBones = bodyMeshRenderer.bones;
 			for (int i = 0; i < bodyBones.Length; ++i) {
-				var bone = bodyBones [i];
+                var bone = bodyBones[i];
 				if (bone.name == headBone.name) {
 					Debug.LogFormat ("Head bone name: {0}, idx: {1}", bone.name, i);
 					headBoneIdx = i;
