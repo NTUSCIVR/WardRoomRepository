@@ -10,6 +10,8 @@ public class Utensils : MonoBehaviour {
     GameObject objectToDisable;
     [SerializeField]
     BoxCollider collider;
+    [SerializeField]
+    AudioSource utensilssounds;
     protected virtual void OnEnable()
     {
         linkedObject = (linkedObject == null ? GetComponent<VRTK_InteractableObject>() : linkedObject);
@@ -44,6 +46,8 @@ public class Utensils : MonoBehaviour {
     {
         if (collider != null)
             collider.isTrigger = true;
+
+        utensilssounds.Play();
     }
 
     protected virtual void InteractableObjectSnappedToDropZone(object sender, InteractableObjectEventArgs e)
@@ -54,8 +58,12 @@ public class Utensils : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Food"))
+        if (other.gameObject.CompareTag("Food"))
+        {
             objectToDisable = (objectToDisable == null ? other.gameObject : objectToDisable);
+
+            utensilssounds.Play();
+        }
     }
 
     private void OnTriggerExit(Collider other)

@@ -14,6 +14,7 @@ TagManager:
   - Head
   - Food
   - Utensil
+  - Sound
   layers:
   - Default
   - TransparentFX

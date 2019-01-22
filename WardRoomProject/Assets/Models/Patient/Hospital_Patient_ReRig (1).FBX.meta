@@ -1,0 +1,1568 @@
+fileFormatVersion: 2
+guid: 892fc63f8e97f2f4fb4278ec96821367
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Eye_005
+    100002: Eye_006
+    100004: Eye_007
+    100006: Eye_008
+    100008: eye_1
+    100010: eye_2
+    100012: feet
+    100014: hand
+    100016: hand2
+    100018: Head
+    100020: head
+    100022: head 1
+    100024: Hips
+    100026: //RootNode
+    100028: LeftArm
+    100030: LeftFoot
+    100032: LeftForeArm
+    100034: LeftHand
+    100036: LeftLeg
+    100038: LeftShoulder
+    100040: LeftToeBase
+    100042: LeftUpLeg
+    100044: Neck
+    100046: Patient_Ctrl_ChestEndEffector
+    100048: Patient_Ctrl_ChestOriginEffector
+    100050: Patient_Ctrl_Head
+    100052: Patient_Ctrl_HeadEffector
+    100054: Patient_Ctrl_Hips
+    100056: Patient_Ctrl_HipsEffector
+    100058: Patient_Ctrl_LeftAnkleEffector
+    100060: Patient_Ctrl_LeftArm
+    100062: Patient_Ctrl_LeftElbowEffector
+    100064: Patient_Ctrl_LeftFoot
+    100066: Patient_Ctrl_LeftFootEffector
+    100068: Patient_Ctrl_LeftForeArm
+    100070: Patient_Ctrl_LeftHand
+    100072: Patient_Ctrl_LeftHipEffector
+    100074: Patient_Ctrl_LeftKneeEffector
+    100076: Patient_Ctrl_LeftLeg
+    100078: Patient_Ctrl_LeftShoulder
+    100080: Patient_Ctrl_LeftShoulderEffector
+    100082: Patient_Ctrl_LeftToeBase
+    100084: Patient_Ctrl_LeftUpLeg
+    100086: Patient_Ctrl_LeftWristEffector
+    100088: Patient_Ctrl_Neck
+    100090: Patient_Ctrl_Reference
+    100092: Patient_Ctrl_RightAnkleEffector
+    100094: Patient_Ctrl_RightArm
+    100096: Patient_Ctrl_RightElbowEffector
+    100098: Patient_Ctrl_RightFoot
+    100100: Patient_Ctrl_RightFootEffector
+    100102: Patient_Ctrl_RightForeArm
+    100104: Patient_Ctrl_RightHand
+    100106: Patient_Ctrl_RightHipEffector
+    100108: Patient_Ctrl_RightKneeEffector
+    100110: Patient_Ctrl_RightLeg
+    100112: Patient_Ctrl_RightShoulder
+    100114: Patient_Ctrl_RightShoulderEffector
+    100116: Patient_Ctrl_RightToeBase
+    100118: Patient_Ctrl_RightUpLeg
+    100120: Patient_Ctrl_RightWristEffector
+    100122: Patient_Ctrl_Spine
+    100124: Patient_Ctrl_Spine1
+    100126: Patient_Ctrl_Spine2
+    100128: Patient_Geo
+    100130: Patient_Guides
+    100132: Patient_Head
+    100134: Patient_Hips
+    100136: Patient_LeftArm
+    100138: Patient_LeftEye
+    100140: Patient_LeftFinger0
+    100142: Patient_LeftFinger01
+    100144: Patient_LeftFinger02
+    100146: Patient_LeftFinger0Nub
+    100148: Patient_LeftFinger1
+    100150: Patient_LeftFinger11
+    100152: Patient_LeftFinger12
+    100154: Patient_LeftFinger1Nub
+    100156: Patient_LeftFinger2
+    100158: Patient_LeftFinger21
+    100160: Patient_LeftFinger22
+    100162: Patient_LeftFinger2Nub
+    100164: Patient_LeftFinger3
+    100166: Patient_LeftFinger31
+    100168: Patient_LeftFinger32
+    100170: Patient_LeftFinger3Nub
+    100172: Patient_LeftFinger4
+    100174: Patient_LeftFinger41
+    100176: Patient_LeftFinger42
+    100178: Patient_LeftFinger4Nub
+    100180: Patient_LeftFoot
+    100182: Patient_LeftForeArm
+    100184: Patient_LeftHand
+    100186: Patient_LeftLeg
+    100188: Patient_LeftShoulder
+    100190: Patient_LeftToeBase
+    100192: Patient_LeftUpLeg
+    100194: Patient_Neck
+    100196: Patient_Reference
+    100198: Patient_RightArm
+    100200: Patient_RightEye
+    100202: Patient_RightFinger0
+    100204: Patient_RightFinger01
+    100206: Patient_RightFinger02
+    100208: Patient_RightFinger0Nub
+    100210: Patient_RightFinger1
+    100212: Patient_RightFinger11
+    100214: Patient_RightFinger12
+    100216: Patient_RightFinger1Nub
+    100218: Patient_RightFinger2
+    100220: Patient_RightFinger21
+    100222: Patient_RightFinger22
+    100224: Patient_RightFinger2Nub
+    100226: Patient_RightFinger3
+    100228: Patient_RightFinger31
+    100230: Patient_RightFinger32
+    100232: Patient_RightFinger3Nub
+    100234: Patient_RightFinger4
+    100236: Patient_RightFinger41
+    100238: Patient_RightFinger42
+    100240: Patient_RightFinger4Nub
+    100242: Patient_RightFoot
+    100244: Patient_RightForeArm
+    100246: Patient_RightHand
+    100248: Patient_RightLeg
+    100250: Patient_RightShoulder
+    100252: Patient_RightToeBase
+    100254: Patient_RightUpLeg
+    100256: Patient_Spine
+    100258: Patient_Spine1
+    100260: Patient_Spine2
+    100262: Reference
+    100264: RightArm
+    100266: RightFoot
+    100268: RightForeArm
+    100270: RightHand
+    100272: RightLeg
+    100274: RightShoulder
+    100276: RightToeBase
+    100278: RightUpLeg
+    100280: Spine
+    100282: Spine1
+    100284: Spine2
+    100286: upper_bodi
+    100288: upper_bodi_details
+    400000: Eye_005
+    400002: Eye_006
+    400004: Eye_007
+    400006: Eye_008
+    400008: eye_1
+    400010: eye_2
+    400012: feet
+    400014: hand
+    400016: hand2
+    400018: Head
+    400020: head
+    400022: head 1
+    400024: Hips
+    400026: //RootNode
+    400028: LeftArm
+    400030: LeftFoot
+    400032: LeftForeArm
+    400034: LeftHand
+    400036: LeftLeg
+    400038: LeftShoulder
+    400040: LeftToeBase
+    400042: LeftUpLeg
+    400044: Neck
+    400046: Patient_Ctrl_ChestEndEffector
+    400048: Patient_Ctrl_ChestOriginEffector
+    400050: Patient_Ctrl_Head
+    400052: Patient_Ctrl_HeadEffector
+    400054: Patient_Ctrl_Hips
+    400056: Patient_Ctrl_HipsEffector
+    400058: Patient_Ctrl_LeftAnkleEffector
+    400060: Patient_Ctrl_LeftArm
+    400062: Patient_Ctrl_LeftElbowEffector
+    400064: Patient_Ctrl_LeftFoot
+    400066: Patient_Ctrl_LeftFootEffector
+    400068: Patient_Ctrl_LeftForeArm
+    400070: Patient_Ctrl_LeftHand
+    400072: Patient_Ctrl_LeftHipEffector
+    400074: Patient_Ctrl_LeftKneeEffector
+    400076: Patient_Ctrl_LeftLeg
+    400078: Patient_Ctrl_LeftShoulder
+    400080: Patient_Ctrl_LeftShoulderEffector
+    400082: Patient_Ctrl_LeftToeBase
+    400084: Patient_Ctrl_LeftUpLeg
+    400086: Patient_Ctrl_LeftWristEffector
+    400088: Patient_Ctrl_Neck
+    400090: Patient_Ctrl_Reference
+    400092: Patient_Ctrl_RightAnkleEffector
+    400094: Patient_Ctrl_RightArm
+    400096: Patient_Ctrl_RightElbowEffector
+    400098: Patient_Ctrl_RightFoot
+    400100: Patient_Ctrl_RightFootEffector
+    400102: Patient_Ctrl_RightForeArm
+    400104: Patient_Ctrl_RightHand
+    400106: Patient_Ctrl_RightHipEffector
+    400108: Patient_Ctrl_RightKneeEffector
+    400110: Patient_Ctrl_RightLeg
+    400112: Patient_Ctrl_RightShoulder
+    400114: Patient_Ctrl_RightShoulderEffector
+    400116: Patient_Ctrl_RightToeBase
+    400118: Patient_Ctrl_RightUpLeg
+    400120: Patient_Ctrl_RightWristEffector
+    400122: Patient_Ctrl_Spine
+    400124: Patient_Ctrl_Spine1
+    400126: Patient_Ctrl_Spine2
+    400128: Patient_Geo
+    400130: Patient_Guides
+    400132: Patient_Head
+    400134: Patient_Hips
+    400136: Patient_LeftArm
+    400138: Patient_LeftEye
+    400140: Patient_LeftFinger0
+    400142: Patient_LeftFinger01
+    400144: Patient_LeftFinger02
+    400146: Patient_LeftFinger0Nub
+    400148: Patient_LeftFinger1
+    400150: Patient_LeftFinger11
+    400152: Patient_LeftFinger12
+    400154: Patient_LeftFinger1Nub
+    400156: Patient_LeftFinger2
+    400158: Patient_LeftFinger21
+    400160: Patient_LeftFinger22
+    400162: Patient_LeftFinger2Nub
+    400164: Patient_LeftFinger3
+    400166: Patient_LeftFinger31
+    400168: Patient_LeftFinger32
+    400170: Patient_LeftFinger3Nub
+    400172: Patient_LeftFinger4
+    400174: Patient_LeftFinger41
+    400176: Patient_LeftFinger42
+    400178: Patient_LeftFinger4Nub
+    400180: Patient_LeftFoot
+    400182: Patient_LeftForeArm
+    400184: Patient_LeftHand
+    400186: Patient_LeftLeg
+    400188: Patient_LeftShoulder
+    400190: Patient_LeftToeBase
+    400192: Patient_LeftUpLeg
+    400194: Patient_Neck
+    400196: Patient_Reference
+    400198: Patient_RightArm
+    400200: Patient_RightEye
+    400202: Patient_RightFinger0
+    400204: Patient_RightFinger01
+    400206: Patient_RightFinger02
+    400208: Patient_RightFinger0Nub
+    400210: Patient_RightFinger1
+    400212: Patient_RightFinger11
+    400214: Patient_RightFinger12
+    400216: Patient_RightFinger1Nub
+    400218: Patient_RightFinger2
+    400220: Patient_RightFinger21
+    400222: Patient_RightFinger22
+    400224: Patient_RightFinger2Nub
+    400226: Patient_RightFinger3
+    400228: Patient_RightFinger31
+    400230: Patient_RightFinger32
+    400232: Patient_RightFinger3Nub
+    400234: Patient_RightFinger4
+    400236: Patient_RightFinger41
+    400238: Patient_RightFinger42
+    400240: Patient_RightFinger4Nub
+    400242: Patient_RightFoot
+    400244: Patient_RightForeArm
+    400246: Patient_RightHand
+    400248: Patient_RightLeg
+    400250: Patient_RightShoulder
+    400252: Patient_RightToeBase
+    400254: Patient_RightUpLeg
+    400256: Patient_Spine
+    400258: Patient_Spine1
+    400260: Patient_Spine2
+    400262: Reference
+    400264: RightArm
+    400266: RightFoot
+    400268: RightForeArm
+    400270: RightHand
+    400272: RightLeg
+    400274: RightShoulder
+    400276: RightToeBase
+    400278: RightUpLeg
+    400280: Spine
+    400282: Spine1
+    400284: Spine2
+    400286: upper_bodi
+    400288: upper_bodi_details
+    2100000: Converted SSSbodi_skin
+    2100002: upper_bodi_details
+    2100004: Converted SSShead
+    2100006: Converted SSSfeet
+    2100008: upper_bodi
+    2100010: glass
+    2100012: Converted SSSEye
+    4300000: hand
+    4300002: hand2
+    4300004: upper_bodi_details
+    4300006: head
+    4300008: feet
+    4300010: upper_bodi
+    4300012: head
+    4300014: Eye_007
+    4300016: Eye_008
+    4300018: Eye_006
+    4300020: Eye_005
+    9500000: //RootNode
+    13700000: Eye_005
+    13700002: Eye_006
+    13700004: Eye_007
+    13700006: Eye_008
+    13700008: feet
+    13700010: hand
+    13700012: hand2
+    13700014: head
+    13700016: head 1
+    13700018: upper_bodi
+    13700020: upper_bodi_details
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Patient_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftEye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightEye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_LeftFinger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_RightFinger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Patient_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Hospital_Patient_ReRig (1)(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Reference
+      parentName: Hospital_Patient_ReRig (1)(Clone)
+      position: {x: 0.00000019073485, y: 0.002000575, z: -0.0012569046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_ChestEndEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.000000023841856, y: 1.5004268, z: -0.047437802}
+      rotation: {x: -0.015882475, y: -6.513343e-10, z: 0.00000004100446, w: 0.9998739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_ChestOriginEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.00000007668174, y: 1.1420555, z: -0.0070022517}
+      rotation: {x: -0.00864019, y: -2.2087825e-10, z: 0.000000025563066, w: 0.9999627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_HeadEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.00000008522073, y: 1.6533914, z: -0.02181604}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Hips
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.00000007671842, y: 1.0262524, z: -0.0070024864}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftUpLeg
+      parentName: Patient_Ctrl_Hips
+      position: {x: -0.11699967, y: -0.10244705, z: 0.017349713}
+      rotation: {x: 0.025949098, y: -0.008617724, z: -0.03194621, w: 0.9991155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftLeg
+      parentName: Patient_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.4454217, z: 0}
+      rotation: {x: 0.024639204, y: -0.054466777, z: -0.0013451267, w: 0.99821067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftFoot
+      parentName: Patient_Ctrl_LeftLeg
+      position: {x: -0, y: -0.38146168, z: 0}
+      rotation: {x: -0.04210943, y: -0.03629803, z: -0.011231214, w: 0.9983903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftToeBase
+      parentName: Patient_Ctrl_LeftFoot
+      position: {x: -0.000000095367426, y: -0.07742637, z: 0.15141676}
+      rotation: {x: 2.8458532e-24, y: -0.000000023238155, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightUpLeg
+      parentName: Patient_Ctrl_Hips
+      position: {x: 0.11699952, y: -0.10244705, z: 0.017349713}
+      rotation: {x: 0.025931047, y: 0.008617462, z: 0.031945914, w: 0.999116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightLeg
+      parentName: Patient_Ctrl_RightUpLeg
+      position: {x: 0.000000028610229, y: -0.4454217, z: 0.0000043570994}
+      rotation: {x: 0.024675852, y: 0.054446504, z: 0.0013471373, w: 0.99821085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightFoot
+      parentName: Patient_Ctrl_RightLeg
+      position: {x: -0.000000009536743, y: -0.38146168, z: 0}
+      rotation: {x: -0.04212729, y: 0.036284305, z: 0.011214745, w: 0.9983902}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightToeBase
+      parentName: Patient_Ctrl_RightFoot
+      position: {x: 0.000012683868, y: -0.07742637, z: 0.15141675}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Spine
+      parentName: Patient_Ctrl_Hips
+      position: {x: 3.8779036e-10, y: 0.115803145, z: 0.00000023424624}
+      rotation: {x: -0.00864019, y: -2.2087825e-10, z: 0.000000025563066, w: 0.9999627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Spine1
+      parentName: Patient_Ctrl_Spine
+      position: {x: 0.000000011704069, y: 0.11550804, z: -0.008270378}
+      rotation: {x: -0.0036214166, y: 2.3771255e-17, z: 6.7330874e-17, w: 0.99999344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Spine2
+      parentName: Patient_Ctrl_Spine1
+      position: {x: 0.000000021518353, y: 0.111130595, z: -0.015414771}
+      rotation: {x: -0.0036214145, y: 1.5445173e-16, z: 1.2260226e-16, w: 0.99999344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftShoulder
+      parentName: Patient_Ctrl_Spine2
+      position: {x: -0.046417665, y: 0.13261962, z: -0.007827108}
+      rotation: {x: -4.3368087e-18, y: 1.7347235e-18, z: -5.3159788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftArm
+      parentName: Patient_Ctrl_LeftShoulder
+      position: {x: -0.13726473, y: -0.0430513, z: 0.002575054}
+      rotation: {x: 0.026902523, y: -0.015079373, z: 0.36080852, w: 0.93212986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftForeArm
+      parentName: Patient_Ctrl_LeftArm
+      position: {x: -0.31342006, y: 0, z: 4.440892e-18}
+      rotation: {x: 0.00018835545, y: 0.15481085, z: -0.00119546, w: 0.9879434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftHand
+      parentName: Patient_Ctrl_LeftForeArm
+      position: {x: -0.22321765, y: 0, z: 0}
+      rotation: {x: -0.00000018785535, y: -0.00000042743903, z: 0.00000025078634,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Neck
+      parentName: Patient_Ctrl_Spine2
+      position: {x: 0.0000000113648815, y: 0.17612822, z: -0.015830772}
+      rotation: {x: -1.6229461e-16, y: -1.0825564e-16, z: -2.4630818e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_Head
+      parentName: Patient_Ctrl_Neck
+      position: {x: -0.00000003647279, y: 0.108569026, z: 0.024702134}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightShoulder
+      parentName: Patient_Ctrl_Spine2
+      position: {x: 0.046417445, y: 0.13261962, z: -0.007827108}
+      rotation: {x: -4.3368087e-18, y: -1.7347235e-18, z: 5.3159788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightArm
+      parentName: Patient_Ctrl_RightShoulder
+      position: {x: 0.13726473, y: -0.0430513, z: 0.002575054}
+      rotation: {x: 0.026773121, y: 0.014991343, z: -0.3607019, w: 0.9321763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightForeArm
+      parentName: Patient_Ctrl_RightArm
+      position: {x: 0.31342018, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.00015002034, y: -0.15468433, z: 0.00094978267, w: 0.9879635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightHand
+      parentName: Patient_Ctrl_RightForeArm
+      position: {x: 0.22321755, y: 2.842171e-16, z: -4.440892e-18}
+      rotation: {x: -0.00000044589498, y: 0.0000008171457, z: 0.07043834, w: 0.99751616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_HipsEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0, y: 0.9238053, z: 0.010347227}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftAnkleEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.1690303, y: 0.101151004, z: -0.051746935}
+      rotation: {x: 0.0062310793, y: -0.0978317, z: -0.050023336, w: 0.99392545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftElbowEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.41536987, y: 1.2465602, z: -0.05164636}
+      rotation: {x: -0.04375152, y: 0.13519996, z: 0.3574095, w: 0.92307377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftFootEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.20617636, y: 0.023724593, z: 0.09504274}
+      rotation: {x: 0.0062310784, y: -0.09783168, z: -0.05002333, w: 0.99392545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftHipEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.1169996, y: 0.9238053, z: 0.010347227}
+      rotation: {x: 0.025949098, y: -0.008617724, z: -0.03194621, w: 0.9991155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftKneeEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.14523414, y: 0.479892, z: -0.012989536}
+      rotation: {x: 0.04879166, y: -0.06377313, z: -0.034434013, w: 0.99617606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftShoulderEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.18368268, y: 1.4574792, z: -0.043496694}
+      rotation: {x: 0.012094605, y: -0.009346936, z: 0.36100253, w: 0.93243957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_LeftWristEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: -0.57339877, y: 1.101915, z: 0.011049604}
+      rotation: {x: -0.047159735, y: 0.1224439, z: 0.36197838, w: 0.9229058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightAnkleEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.16903026, y: 0.10115108, z: -0.05174697}
+      rotation: {x: 0.006231748, y: 0.0977987, z: 0.05000719, w: 0.9939295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightElbowEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.415386, y: 1.2465793, z: -0.051693603}
+      rotation: {x: -0.043855567, y: -0.13515702, z: -0.35751703, w: 0.9230335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightFootEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.20617631, y: 0.023724623, z: 0.09504269}
+      rotation: {x: 0.006231748, y: 0.0977987, z: 0.05000719, w: 0.9939295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightHipEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.1169996, y: 0.9238053, z: 0.010347227}
+      rotation: {x: 0.025931047, y: 0.008617462, z: 0.031945914, w: 0.999116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightKneeEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.14523438, y: 0.47989103, z: -0.012975455}
+      rotation: {x: 0.048810963, y: 0.06375378, z: 0.03443392, w: 0.99617636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightShoulderEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.18368265, y: 1.4574792, z: -0.043496687}
+      rotation: {x: 0.01196448, y: 0.009260619, z: -0.36089447, w: 0.9324839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Ctrl_RightWristEffector
+      parentName: Patient_Ctrl_Reference
+      position: {x: 0.57338595, y: 1.1019017, z: 0.01100091}
+      rotation: {x: -0.05326699, y: -0.13173127, z: -0.29161215, w: 0.9459238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Geo
+      parentName: Hospital_Patient_ReRig (1)(Clone)
+      position: {x: -0.00000020922516, y: 1.841876, z: 0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_1
+      parentName: Patient_Geo
+      position: {x: 0.034991026, y: -0.12866496, z: -0.00405081}
+      rotation: {x: -0.7048224, y: 0.056792315, z: 0.05679223, w: 0.7048224}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000005}
+    - name: Eye_007
+      parentName: eye_1
+      position: {x: -0.11699045, y: 0.06715111, z: -0.010264271}
+      rotation: {x: 0.00000008742276, y: -3.552714e-15, z: -6.87461e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_008
+      parentName: eye_1
+      position: {x: -0.02418915, y: 0.057514906, z: -0.00025845735}
+      rotation: {x: -0.000000087422784, y: -3.552713e-15, z: -6.874611e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_2
+      parentName: Patient_Geo
+      position: {x: -0.03509087, y: -0.12866496, z: -0.004993943}
+      rotation: {x: -0.7071068, y: 0.0000004892534, z: 0.0000004892534, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.0000005}
+    - name: Eye_005
+      parentName: eye_2
+      position: {x: -0.02418916, y: 0.057514895, z: -0.00025845738}
+      rotation: {x: -0.000000087422784, y: -4.755153e-27, z: 5.439261e-20, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Eye_006
+      parentName: eye_2
+      position: {x: -0.11699045, y: 0.0671511, z: -0.010264271}
+      rotation: {x: 0.000000087422784, y: 4.755153e-27, z: 5.439261e-20, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: feet
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand2
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head 1
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upper_bodi
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upper_bodi_details
+      parentName: Patient_Geo
+      position: {x: 0.00000020922516, y: -1.841876, z: -0.10484847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Guides
+      parentName: Hospital_Patient_ReRig (1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Patient_Guides
+      position: {x: 0.00000027595559, y: 1.6553919, z: -0.023072943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Patient_Guides
+      position: {x: 0.0000002674533, y: 1.028253, z: -0.008259391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: Patient_Guides
+      position: {x: -0.1836821, y: 1.460263, z: -0.03719636}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot
+      parentName: Patient_Guides
+      position: {x: -0.16903007, y: 0.10315164, z: -0.05300379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftForeArm
+      parentName: Patient_Guides
+      position: {x: -0.41581446, y: 1.2502017, z: -0.052060436}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHand
+      parentName: Patient_Guides
+      position: {x: -0.57338536, y: 1.1031345, z: 0.005980777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: Patient_Guides
+      position: {x: -0.14508495, y: 0.4818839, z: -0.014254622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: Patient_Guides
+      position: {x: -0.046417363, y: 1.5033144, z: -0.03977141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftToeBase
+      parentName: Patient_Guides
+      position: {x: -0.20617612, y: 0.025725272, z: 0.093785875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: Patient_Guides
+      position: {x: -0.1169994, y: 0.92580587, z: 0.009090322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Patient_Guides
+      position: {x: 0.00000031242837, y: 1.5468229, z: -0.04777508}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reference
+      parentName: Patient_Guides
+      position: {x: 0.00000019073485, y: 0.002000575, z: -0.0012569046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: Patient_Guides
+      position: {x: 0.18368247, y: 1.460263, z: -0.03719636}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot
+      parentName: Patient_Guides
+      position: {x: 0.16903046, y: 0.10315164, z: -0.05300379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: Patient_Guides
+      position: {x: 0.415815, y: 1.2502017, z: -0.052060436}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHand
+      parentName: Patient_Guides
+      position: {x: 0.5733857, y: 1.1031345, z: 0.005980777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: Patient_Guides
+      position: {x: 0.14508532, y: 0.4818839, z: -0.014254622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: Patient_Guides
+      position: {x: 0.046417747, y: 1.5033144, z: -0.03977141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightToeBase
+      parentName: Patient_Guides
+      position: {x: 0.2061765, y: 0.025725272, z: 0.093785875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: Patient_Guides
+      position: {x: 0.11699978, y: 0.92580587, z: 0.009090322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Patient_Guides
+      position: {x: 0.00000026784107, y: 1.1440561, z: -0.008259157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: Patient_Guides
+      position: {x: 0.00000027954513, y: 1.2595642, z: -0.016529534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: Patient_Guides
+      position: {x: 0.0000003010635, y: 1.3706948, z: -0.031944305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Reference
+      parentName: Hospital_Patient_ReRig (1)(Clone)
+      position: {x: 0.00000019073485, y: 0.002000575, z: -0.0012569046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Hips
+      parentName: Patient_Reference
+      position: {x: 0.00000007671842, y: 1.0262524, z: -0.0070024864}
+      rotation: {x: -0.50000054, y: 0.49999952, z: 0.50000054, w: -0.49999952}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftUpLeg
+      parentName: Patient_Hips
+      position: {x: 0.10244701, y: 0.01734992, z: 0.11699967}
+      rotation: {x: 0.0000000016743515, y: -1.6656811e-15, z: 1, w: -0.0000010113985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftLeg
+      parentName: Patient_LeftUpLeg
+      position: {x: -0.4454217, y: -4.5519144e-17, z: -0.0000000014915851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFoot
+      parentName: Patient_LeftLeg
+      position: {x: -0.38146168, y: -3.9968027e-17, z: -0.000000001277402}
+      rotation: {x: -0.00000015200307, y: 0.00000024559253, z: 0.52188265, w: 0.8530173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftToeBase
+      parentName: Patient_LeftFoot
+      position: {x: -0.17006433, y: -0.0000000047973083, z: -0.0000000031286356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightUpLeg
+      parentName: Patient_Hips
+      position: {x: 0.10244701, y: 0.01734992, z: -0.11699952}
+      rotation: {x: -1.6875471e-13, y: 0.000000031933734, z: 0.0000059026333, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightLeg
+      parentName: Patient_RightUpLeg
+      position: {x: 0.4454217, y: -2.250513e-10, z: -0.000000001653859}
+      rotation: {x: 1.12523773e-13, y: -0.00000004154904, z: -0.000004891235, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFoot
+      parentName: Patient_RightLeg
+      position: {x: 0.38146168, y: 0, z: 9.235977e-10}
+      rotation: {x: -0.000019459214, y: 0.000031825348, z: 0.52188265, w: 0.8530173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightToeBase
+      parentName: Patient_RightFoot
+      position: {x: 0.17006433, y: 0.000000001240117, z: 0.0000000022029154}
+      rotation: {x: 0.000025416533, y: -0.00000002632816, z: 6.6917056e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Spine
+      parentName: Patient_Hips
+      position: {x: -0.115803145, y: 1.11022296e-17, z: 3.4149318e-18}
+      rotation: {x: 0.0000000018655335, y: -0.000000048828518, z: 0.035732422, w: 0.9993614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Spine1
+      parentName: Patient_Spine
+      position: {x: -0.11580374, y: 3.5527136e-17, z: -3.3881317e-23}
+      rotation: {x: 0.0000000049765716, y: -0.0000000453424, z: 0.03316947, w: 0.99944973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Spine2
+      parentName: Patient_Spine1
+      position: {x: -0.11219458, y: -7.105427e-17, z: -1.6940659e-23}
+      rotation: {x: 3.8436482e-10, y: 0.00000006382901, z: -0.024091646, w: 0.9997098}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftShoulder
+      parentName: Patient_Spine2
+      position: {x: -0.13278784, y: 0.004076586, z: 0.046417672}
+      rotation: {x: -0.39750543, y: 0.59205395, z: 0.5470651, w: 0.43838495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftArm
+      parentName: Patient_LeftShoulder
+      position: {x: -0.1438807, y: 0, z: -1.3322676e-17}
+      rotation: {x: 0.69988817, y: -0.113289654, z: -0.100779794, w: 0.6979724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftForeArm
+      parentName: Patient_LeftArm
+      position: {x: -0.31342006, y: 4.440892e-18, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftHand
+      parentName: Patient_LeftForeArm
+      position: {x: -0.22321765, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger4
+      parentName: Patient_LeftHand
+      position: {x: -0.101780444, y: -0.034629922, z: 0.012696539}
+      rotation: {x: 0.61983585, y: 0.053539854, z: -0.008029691, w: 0.7828618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger41
+      parentName: Patient_LeftFinger4
+      position: {x: -0.02329308, y: 0.00000015222368, z: 0.000000021393333}
+      rotation: {x: 0.0000000018621874, y: 4.1288785e-11, z: 0.02216675, w: 0.9997543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger42
+      parentName: Patient_LeftFinger41
+      position: {x: -0.020433089, y: 0.00000015212967, z: 0.00000004034023}
+      rotation: {x: 0.000000057728933, y: -0.0000000012442789, z: 0.041318625, w: 0.9991461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger4Nub
+      parentName: Patient_LeftFinger42
+      position: {x: -0.022052657, y: -9.681553e-10, z: 0.0000000027059248}
+      rotation: {x: 0.000000005587936, y: -0.00000000372529, z: 0.000000044703484,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger3
+      parentName: Patient_LeftHand
+      position: {x: -0.112862706, y: -0.01437852, z: 0.010512344}
+      rotation: {x: 0.6488459, y: 0.076004654, z: -0.027517308, w: 0.75661427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger31
+      parentName: Patient_LeftFinger3
+      position: {x: -0.02978738, y: -3.2338518e-10, z: 0.0000000016566397}
+      rotation: {x: 0.000000007446407, y: 2.4932642e-10, z: 0.03346403, w: 0.99943995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger32
+      parentName: Patient_LeftFinger31
+      position: {x: -0.019102102, y: 0.00000007623099, z: 0.0000000010277627}
+      rotation: {x: -0.000000014167856, y: 0.0000006900801, z: 0.03896171, w: 0.99924076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger3Nub
+      parentName: Patient_LeftFinger32
+      position: {x: -0.025690278, y: -0.000000077182264, z: -0.0000000083154665}
+      rotation: {x: -2.7755569e-17, y: -0.0000000018626449, z: -0.000000014901159,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger2
+      parentName: Patient_LeftHand
+      position: {x: -0.111394525, y: 0.010008812, z: 0.009911128}
+      rotation: {x: 0.7076578, y: -0.0044621606, z: -0.05965727, w: 0.7040181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger21
+      parentName: Patient_LeftFinger2
+      position: {x: -0.036917355, y: 1.3527028e-10, z: -0.000000009506053}
+      rotation: {x: -0.000000007726624, y: -0.0000000071639072, z: -0.037763257, w: 0.9992867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger22
+      parentName: Patient_LeftFinger21
+      position: {x: -0.027498372, y: -2.3683783e-10, z: -0.00000001853235}
+      rotation: {x: 2.70231e-10, y: -0.0000000074456783, z: 0.036269795, w: 0.9993421}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger2Nub
+      parentName: Patient_LeftFinger22
+      position: {x: -0.026770946, y: 3.1932884e-10, z: 4.22426e-11}
+      rotation: {x: 0.000000007450581, y: 1.1102229e-16, z: 0.000000014901159, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger1
+      parentName: Patient_LeftHand
+      position: {x: -0.10907082, y: 0.03261568, z: 0.012635018}
+      rotation: {x: 0.7221551, y: -0.04606259, z: -0.12970327, w: 0.6778993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger11
+      parentName: Patient_LeftFinger1
+      position: {x: -0.032425165, y: -1.3987786e-10, z: -0.000000038024165}
+      rotation: {x: 0.0044714175, y: -0.031097319, z: 0.005040864, w: 0.99949366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger12
+      parentName: Patient_LeftFinger11
+      position: {x: -0.02218175, y: -1.3536862e-10, z: -0.000000038139426}
+      rotation: {x: 0.0000000335276, y: 0.00000010430808, z: 0.039658703, w: 0.9992133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger1Nub
+      parentName: Patient_LeftFinger12
+      position: {x: -0.022174116, y: -8.181047e-11, z: 0.000000036610118}
+      rotation: {x: 0, y: -0.000000007450581, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger0
+      parentName: Patient_LeftHand
+      position: {x: -0.04143199, y: 0.03808563, z: 0.02485026}
+      rotation: {x: 0.9160932, y: -0.35498625, z: -0.14261156, w: 0.12008314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger01
+      parentName: Patient_LeftFinger0
+      position: {x: -0.041974697, y: 0.0000000015799584, z: 0.0000000012931229}
+      rotation: {x: 0.028600197, y: 0.003992859, z: -0.03333926, w: 0.99902683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger02
+      parentName: Patient_LeftFinger01
+      position: {x: -0.027838912, y: 0.000000039088093, z: 6.641187e-10}
+      rotation: {x: -0.0075802635, y: 0.01396003, z: 0.03352881, w: 0.99931157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftFinger0Nub
+      parentName: Patient_LeftFinger02
+      position: {x: -0.02783887, y: 0.000000038134708, z: -1.317784e-10}
+      rotation: {x: 0.000000014901161, y: 2.2204458e-16, z: 0.000000014901159, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightShoulder
+      parentName: Patient_Spine2
+      position: {x: -0.13278784, y: 0.004076586, z: -0.046417434}
+      rotation: {x: 0.59205395, y: 0.3975055, z: -0.43838498, w: 0.547065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightArm
+      parentName: Patient_RightShoulder
+      position: {x: 0.1438807, y: -8.5265126e-16, z: 4.440892e-18}
+      rotation: {x: 0.69988817, y: -0.113289654, z: -0.100779794, w: 0.6979724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightForeArm
+      parentName: Patient_RightArm
+      position: {x: 0.31342018, y: -4.440892e-18, z: 8.5265126e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightHand
+      parentName: Patient_RightForeArm
+      position: {x: 0.22321755, y: 1.3322676e-17, z: 0.000000010869495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger1
+      parentName: Patient_RightHand
+      position: {x: 0.10906367, y: -0.032584958, z: -0.012634175}
+      rotation: {x: 0.04602589, y: 0.72227114, z: -0.6778028, w: -0.12957364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger11
+      parentName: Patient_RightFinger1
+      position: {x: -0.032425206, y: -0.00000007668852, z: -0.000000019275971}
+      rotation: {x: -0.0044714175, y: 0.031097334, z: 0.005040864, w: 0.99949366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger12
+      parentName: Patient_RightFinger11
+      position: {x: -0.022181787, y: -2.5814842e-10, z: 0.000000019159383}
+      rotation: {x: -0.000000098254496, y: -0.0000005383043, z: 0.039657388, w: 0.9992134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger1Nub
+      parentName: Patient_RightFinger12
+      position: {x: -0.02217404, y: 0.00000015320181, z: 0.0000000014343351}
+      rotation: {x: 0.000000014901161, y: 0.000000014901161, z: 1, w: -1.6081228e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger2
+      parentName: Patient_RightHand
+      position: {x: 0.111386955, y: -0.009978843, z: -0.009904014}
+      rotation: {x: 0.004525098, y: 0.70775414, z: -0.70392644, w: -0.059591483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger21
+      parentName: Patient_RightFinger2
+      position: {x: -0.03691728, y: -5.0375915e-11, z: -5.811186e-11}
+      rotation: {x: 8.440749e-10, y: 0.0000000223358, z: -0.037763268, w: 0.9992867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger22
+      parentName: Patient_RightFinger21
+      position: {x: -0.027498255, y: -0.00000007690254, z: -0.0000000100313615}
+      rotation: {x: -0.0000000079861415, y: 0.000000014621126, z: 0.03626982, w: 0.9993421}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger2Nub
+      parentName: Patient_RightFinger22
+      position: {x: -0.02677098, y: 0.00000015241692, z: -0.000000009596327}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger3
+      parentName: Patient_RightHand
+      position: {x: 0.1128555, y: 0.014408654, z: -0.010498608}
+      rotation: {x: 0.07605903, y: -0.6489471, z: 0.75652665, w: 0.027388565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger31
+      parentName: Patient_RightFinger3
+      position: {x: -0.029787458, y: -6.3397193e-10, z: -0.0000000013565958}
+      rotation: {x: -0.000000001986265, y: 0.000000003660872, z: 0.033463996, w: 0.99943995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger32
+      parentName: Patient_RightFinger31
+      position: {x: -0.019102069, y: 0.00000015237808, z: -8.445431e-10}
+      rotation: {x: 0.000000006731353, y: -0.0000003897463, z: 0.03896687, w: 0.9992405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger3Nub
+      parentName: Patient_RightFinger32
+      position: {x: -0.025690284, y: -0.00000007706069, z: -0.0000000010148037}
+      rotation: {x: -0.0000000018626454, y: -1.1405413e-25, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger4
+      parentName: Patient_RightHand
+      position: {x: 0.1017737, y: 0.034660675, z: -0.012679809}
+      rotation: {x: 0.053577088, y: -0.6199297, z: 0.7827864, w: 0.007892614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger41
+      parentName: Patient_RightFinger4
+      position: {x: -0.023293082, y: 0.00000007585854, z: -0.000000020977735}
+      rotation: {x: -0.0000000020273423, y: 0.000000007407461, z: 0.02216672, w: 0.9997543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger42
+      parentName: Patient_RightFinger41
+      position: {x: -0.020433204, y: -0.0000000766506, z: 0.000000017260492}
+      rotation: {x: 0.000000028763072, y: 0.00000037940077, z: 0.041326005, w: 0.9991458}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger4Nub
+      parentName: Patient_RightFinger42
+      position: {x: -0.022052621, y: -4.712223e-10, z: -0.000000021336477}
+      rotation: {x: 0.0000000018626451, y: 0.000000007450581, z: 1, w: 4.735455e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger0
+      parentName: Patient_RightHand
+      position: {x: 0.04142719, y: -0.03805134, z: -0.024864027}
+      rotation: {x: 0.35498255, y: 0.91612136, z: -0.11993043, w: -0.14256875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger01
+      parentName: Patient_RightFinger0
+      position: {x: -0.041974735, y: 0.0000000013797806, z: -0.0000000015387192}
+      rotation: {x: -0.028599987, y: -0.0039945524, z: -0.033337906, w: 0.9990269}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger02
+      parentName: Patient_RightFinger01
+      position: {x: -0.027838908, y: 0.0000000019971649, z: -0.0000000010533092}
+      rotation: {x: 0.007580215, y: -0.01395963, z: 0.033525012, w: 0.9993116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightFinger0Nub
+      parentName: Patient_RightFinger02
+      position: {x: -0.027838869, y: 0.000000037894754, z: -0.00000007675012}
+      rotation: {x: -9.12433e-25, y: -0.000000014901161, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Neck
+      parentName: Patient_Spine2
+      position: {x: -0.17683826, y: -1.7763568e-17, z: -3.3881317e-23}
+      rotation: {x: 0.000000019403268, y: 0.00000019333841, z: -0.15603843, w: 0.987751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_Head
+      parentName: Patient_Neck
+      position: {x: -0.11134374, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_RightEye
+      parentName: Patient_Head
+      position: {x: -0.08390308, y: 0.10795298, z: -0.034992114}
+      rotation: {x: 0.7070212, y: 0.011013525, z: -0.6961358, w: 0.12407531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Patient_LeftEye
+      parentName: Patient_Head
+      position: {x: -0.08322577, y: 0.10703166, z: 0.035528116}
+      rotation: {x: 0.7038529, y: 0.067763425, z: -0.7038519, w: 0.06776352}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

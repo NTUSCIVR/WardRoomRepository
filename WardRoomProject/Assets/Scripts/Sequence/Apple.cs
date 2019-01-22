@@ -14,6 +14,8 @@ public class Apple : MonoBehaviour {
 
     [SerializeField]
     ScriptableEvent m_event;
+    [SerializeField]
+    AudioSource m_sound;
 
     protected virtual void OnEnable()
     {
@@ -21,8 +23,6 @@ public class Apple : MonoBehaviour {
 
         if (linkedObject != null)
         {
-            linkedObject.InteractableObjectTouched += InteractableObjectTouched;
-            linkedObject.InteractableObjectUntouched += InteractableObjectUnTouched;
             linkedObject.InteractableObjectUsed += InteractableObjectUsed;
             linkedObject.InteractableObjectGrabbed -= InteractableObjectGrabbed;
         }
@@ -33,21 +33,9 @@ public class Apple : MonoBehaviour {
     {
         if (linkedObject != null)
         {
-            linkedObject.InteractableObjectTouched -= InteractableObjectTouched;
-            linkedObject.InteractableObjectUntouched -= InteractableObjectUnTouched;
             linkedObject.InteractableObjectUsed -= InteractableObjectUsed;
             linkedObject.InteractableObjectGrabbed -= InteractableObjectGrabbed;
         }
-    }
-
-    protected virtual void InteractableObjectTouched(object sender, InteractableObjectEventArgs e)
-    {
-
-    }
-
-    protected virtual void InteractableObjectUnTouched(object sender, InteractableObjectEventArgs e)
-    {
-
     }
 
     protected virtual void InteractableObjectGrabbed(object sender, InteractableObjectEventArgs e)
@@ -60,7 +48,7 @@ public class Apple : MonoBehaviour {
     protected virtual void InteractableObjectUsed(object sender, InteractableObjectEventArgs e)
     {
         gameObject.SetActive(false);
-
+        m_sound.Play();
         m_event.Raise();
     }
 }

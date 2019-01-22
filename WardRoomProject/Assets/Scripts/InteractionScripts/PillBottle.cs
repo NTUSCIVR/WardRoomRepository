@@ -25,6 +25,8 @@ public class PillBottle : MonoBehaviour {
     private Transform PillsStartingTransform;
     [SerializeField]
     private BoxCollider PillsCollider;
+    [SerializeField]
+    AudioSource m_sound;
 
     protected virtual void OnEnable()
     {
@@ -70,6 +72,8 @@ public class PillBottle : MonoBehaviour {
         CapOutline.enabled = false;
         BodyOutline.enabled = false;
         BodyCollider.enabled = false;
+
+        m_sound.Play();
 
         // Move Pills out of Bottle & Allow Pills to be able to hover over
         Pills.GetComponent<VRTK_InteractableObject>().enabled = true;
