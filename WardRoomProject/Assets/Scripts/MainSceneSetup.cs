@@ -21,7 +21,10 @@ public class MainSceneSetup : MonoBehaviour {
         string id = PlayerPrefs.GetString("ID");
         m_holder.Data = System.Array.Find(m_list.m_list, element => element.Id == id);
         CreateModels();
-        m_textbox.text = "Name: " + m_holder.Data.Name;
+        if (m_holder.Data.Name != "")
+            m_textbox.text = "Name: " + m_holder.Data.Name;
+        else
+            m_textbox.text = "Name: George";
         Destroy(gameObject);
     }
 
@@ -43,8 +46,10 @@ public class MainSceneSetup : MonoBehaviour {
             meshRenderer.material = m_holder.Data.Hairmaterial;
             meshObject.transform.SetParent(avatarObject.transform);
             meshObject.GetComponent<SkinnedMeshRenderer>().updateWhenOffscreen = true;
+            meshObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         }
-        avatarObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        headObject.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+
         if (m_body.GetComponentInChildren<BodyAttacher>())
         {
             //add head to the body

@@ -8,8 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53280dc4320021f4fac7b0491afdc25e, type: 3}
-  m_Name: List
+  m_Script: {fileID: 11500000, guid: 14fa28ff70ee6f74f93d1014446cd9c8, type: 3}
+  m_Name: UtensilsPicked
   m_EditorClassIdentifier: 
-  m_list:
-  - {fileID: 11400000, guid: 39a83211d0e059f4d9dd75e62d089ce7, type: 2}
