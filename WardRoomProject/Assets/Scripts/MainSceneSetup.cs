@@ -44,7 +44,7 @@ public class MainSceneSetup : MonoBehaviour {
             meshObject.transform.SetParent(avatarObject.transform);
             meshObject.GetComponent<SkinnedMeshRenderer>().updateWhenOffscreen = true;
         }
-
+        avatarObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         if (m_body.GetComponentInChildren<BodyAttacher>())
         {
             //add head to the body
