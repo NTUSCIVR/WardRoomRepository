@@ -45,8 +45,8 @@ public class MainSceneSetup : MonoBehaviour {
             meshRenderer.sharedMesh = m_holder.Data.Hair;
             meshRenderer.material = m_holder.Data.Hairmaterial;
             meshObject.transform.SetParent(avatarObject.transform);
-            meshObject.GetComponent<SkinnedMeshRenderer>().updateWhenOffscreen = true;
-            meshObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            //meshObject.GetComponent<SkinnedMeshRenderer>().updateWhenOffscreen = true;
+            meshObject.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
         }
         headObject.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
 
@@ -54,6 +54,7 @@ public class MainSceneSetup : MonoBehaviour {
         {
             //add head to the body
             m_body.GetComponentInChildren<BodyAttacher>().Head = avatarObject;
+
             m_body.GetComponentInChildren<BodyAttacher>().Bind();
         }
     }
