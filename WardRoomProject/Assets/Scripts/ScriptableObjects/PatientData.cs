@@ -16,6 +16,8 @@ public class PatientData : ScriptableObject {
     Material m_hairmaterial;
     [SerializeField]
     string m_name;
+    [SerializeField]
+    Sprite m_photo;
     int option;
 
     public string Id
@@ -76,6 +78,19 @@ public class PatientData : ScriptableObject {
         set
         {
             option = value;
+        }
+    }
+
+    public Sprite Photo
+    {
+        get
+        {
+            return m_photo;
+        }
+
+        set
+        {
+            m_photo = value;
         }
     }
 }

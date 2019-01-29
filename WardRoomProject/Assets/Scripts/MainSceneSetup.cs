@@ -16,15 +16,24 @@ public class MainSceneSetup : MonoBehaviour {
     [SerializeField]
     TMPro.TextMeshPro m_textbox;
 
+    [SerializeField]
+    bool m_generateHead = true;
+
+    [SerializeField]
+    SpriteRenderer m_image;
+
     private void Awake()
     {
         string id = PlayerPrefs.GetString("ID");
         m_holder.Data = System.Array.Find(m_list.m_list, element => element.Id == id);
-        CreateModels();
+        if(m_generateHead)
+            CreateModels();
         if (m_holder.Data.Name != "")
-            m_textbox.text = "Name: " + m_holder.Data.Name;
+            m_textbox.text = m_holder.Data.Name;
         else
-            m_textbox.text = "Name: George";
+            m_textbox.text = "George";
+        if (m_image && m_holder.Data.Photo != null)
+            m_image.sprite = m_holder.Data.Photo;
         Destroy(gameObject);
     }
 

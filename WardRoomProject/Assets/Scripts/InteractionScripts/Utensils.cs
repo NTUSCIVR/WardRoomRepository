@@ -13,6 +13,10 @@ public class Utensils : MonoBehaviour {
     BoxCollider collider;
     [SerializeField]
     AudioSource utensilssounds;
+    [SerializeField]
+    AudioSource eatingsound;
+    [SerializeField]
+    VRTK_InteractableObject otherObject;
     protected virtual void OnEnable()
     {
         linkedObject = (linkedObject == null ? GetComponent<VRTK_InteractableObject>() : linkedObject);
@@ -39,8 +43,12 @@ public class Utensils : MonoBehaviour {
 
     protected virtual void InteractableObjectUsed(object sender, InteractableObjectEventArgs e)
     {
-        if (objectToDisable != null)
-            objectToDisable.SetActive(false);
+        if(otherObject.IsGrabbed())
+        {
+            if (objectToDisable != null)
+                objectToDisable.SetActive(false);
+            eatingsound.Play();
+        }
     }
 
     protected virtual void InteractableObjectGrabbed(object sender, InteractableObjectEventArgs e)
@@ -57,19 +65,19 @@ public class Utensils : MonoBehaviour {
             collider.isTrigger = false;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Food"))
-        {
-            objectToDisable = (objectToDisable == null ? other.gameObject : objectToDisable);
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Food"))
+    //    {
+    //        objectToDisable = (objectToDisable == null ? other.gameObject : objectToDisable);
 
-            utensilssounds.Play();
-        }
-    }
+    //        utensilssounds.Play();
+    //    }
+    //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        objectToDisable = null;
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    objectToDisable = null;
 
-    }
+    //}
 }

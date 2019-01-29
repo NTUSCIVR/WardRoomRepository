@@ -11,7 +11,7 @@ public class EndProgram : MonoBehaviour {
 
     IEnumerator EndProgramFunc()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(10);
         Application.Quit();
     }
 }

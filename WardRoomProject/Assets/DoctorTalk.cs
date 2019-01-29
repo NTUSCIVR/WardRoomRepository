@@ -4,27 +4,45 @@ using UnityEngine;
 
 public class DoctorTalk : StateMachineBehaviour {
 
-    AudioSource m_audioSource;
+    AudioSource[] m_audioSource;
+    [SerializeField]
+    ScriptableEvent m_event;
+    bool m_eventRanOnce = false;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (!m_audioSource)
+        if (m_audioSource == null)
         {
-            m_audioSource = animator.GetComponentInChildren<AudioSource>();
-            m_audioSource.Play();
-            animator.SetBool("Talking", true);
+            try
+            {
+                m_audioSource = animator.GetComponentsInChildren<AudioSource>();
+                animator.SetBool("Talking", true);
+            }
+            catch
+            {
+
+            }
+        }
+        if(!m_eventRanOnce)
+        {
+            m_event.Raise();
+            m_eventRanOnce = true;
         }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-        if(m_audioSource.isPlaying)
+        foreach (AudioSource AS in m_audioSource)
         {
-            animator.SetBool("Talking", true);
-        }
-        else
-        {
-            animator.SetBool("Talking", false);
+            if (AS.isPlaying)
+            {
+                animator.SetBool("Talking", true);
+                break;
+            }
+            else
+            {
+                animator.SetBool("Talking", false);
+            }
         }
     }
 

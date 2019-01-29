@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 122
   m_head: {fileID: 4300000, guid: 88e571cec399c9d48a203664a417b12b, type: 3}
   m_headmaterial: {fileID: 2100000, guid: 8ffe24a4f62755846badb03e229e7985, type: 2}
-  m_hair: {fileID: 4300000, guid: 91bf135eee75fe64b8b61364bbf06ddd, type: 3}
-  m_hairmaterial: {fileID: 2100000, guid: 864ea587180712c47a2841e100b7cc65, type: 2}
+  m_hair: {fileID: 0}
+  m_hairmaterial: {fileID: 2100000, guid: 2c60acddc03edab4b8e8422bf276337e, type: 2}
   m_name: Cherilyn

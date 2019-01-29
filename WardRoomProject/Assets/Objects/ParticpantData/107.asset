@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 107
   m_head: {fileID: 4300000, guid: a4a2ee4147ffb5746b8d0466356a4d47, type: 3}
   m_headmaterial: {fileID: 2100000, guid: 5799b343de2e5be40904125f55dbbd0c, type: 2}
-  m_hair: {fileID: 4300000, guid: 1b52eba0618456a4dbdd8a3b312620ab, type: 3}
-  m_hairmaterial: {fileID: 2100000, guid: a0b10c7ea565fd349b5de5139b5ea930, type: 2}
+  m_hair: {fileID: 0}
+  m_hairmaterial: {fileID: 2100000, guid: 2c60acddc03edab4b8e8422bf276337e, type: 2}
   m_name: 

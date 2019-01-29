@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b07dfefbbdd74384498d6e0f9551b, type: 3}
+  m_Name: 142
+  m_EditorClassIdentifier: 
+  id: 142
+  m_head: {fileID: 4300000, guid: 8339508efb4286842a1e1ef57fc1df0f, type: 3}
+  m_headmaterial: {fileID: 2100000, guid: 4218f584624542641afc18dbdb097479, type: 2}
+  m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
+  m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
+  m_name: Jan Xiong

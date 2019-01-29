@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 128
   m_head: {fileID: 4300000, guid: 98fd8086e34a97d47ad406367ee5c29e, type: 3}
   m_headmaterial: {fileID: 2100000, guid: 9927898e49f0cd84d963f23104385d17, type: 2}
-  m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
+  m_hair: {fileID: 0}
   m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
   m_name: Yi Zhao

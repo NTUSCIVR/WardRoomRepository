@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 124
   m_head: {fileID: 4300000, guid: ee2c8b71634cd6b4fad073e23aabfa13, type: 3}
   m_headmaterial: {fileID: 2100000, guid: 78be14abf6faaee4d8c9ec2f1dce06ff, type: 2}
-  m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
+  m_hair: {fileID: 0}
   m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
   m_name: Jaysen

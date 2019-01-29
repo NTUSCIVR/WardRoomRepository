@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 119
   m_head: {fileID: 4300000, guid: b42c603b1a6cc224eb58c6e6f861ad3e, type: 3}
   m_headmaterial: {fileID: 2100000, guid: e7b23632d00b2fb47af6f6d4f14abdbc, type: 2}
-  m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
+  m_hair: {fileID: 0}
   m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
   m_name: Guo Yao

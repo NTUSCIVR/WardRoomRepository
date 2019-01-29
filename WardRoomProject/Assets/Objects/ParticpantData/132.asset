@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5b07dfefbbdd74384498d6e0f9551b, type: 3}
   m_Name: 132
   m_EditorClassIdentifier: 
-  id: 109
-  m_head: {fileID: 4300000, guid: d323ae985be4efd41855532c6ab2be65, type: 3}
-  m_headmaterial: {fileID: 2100000, guid: 36e2a825803abc64ea47f60f891f1d38, type: 2}
-  m_hair: {fileID: 4300000, guid: 232b766f728404f4ebbda371db3a58c4, type: 3}
+  id: 132
+  m_head: {fileID: 4300000, guid: ad7f5002aef48e2498d731ef302b4bcd, type: 3}
+  m_headmaterial: {fileID: 2100000, guid: 19da08248642ef94497791ccc91c2c9c, type: 2}
+  m_hair: {fileID: 4300000, guid: f6ee5141c74fafb4d9bb999056ebf78d, type: 3}
   m_hairmaterial: {fileID: 2100000, guid: 2c60acddc03edab4b8e8422bf276337e, type: 2}
-  m_name: Ariele
+  m_name: Amanda

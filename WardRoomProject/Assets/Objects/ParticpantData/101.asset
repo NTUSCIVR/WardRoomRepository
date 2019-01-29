@@ -14,6 +14,6 @@ MonoBehaviour:
   id: 101
   m_head: {fileID: 4300000, guid: eddcaf9986457c9478a1a8ee386c97b4, type: 3}
   m_headmaterial: {fileID: 2100000, guid: 526eaeb8d151ab348a967bb8a40f8ace, type: 2}
-  m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
-  m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
+  m_hair: {fileID: 4300000, guid: 11f8a794b28939845ad195cfb2bf088f, type: 3}
+  m_hairmaterial: {fileID: 2100000, guid: 988b25efbbb762742bff57a6531cfce4, type: 2}
   m_name: Bryan

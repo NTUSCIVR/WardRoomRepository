@@ -15,6 +15,7 @@ TagManager:
   - Food
   - Utensil
   - Sound
+  - Talk
   layers:
   - Default
   - TransparentFX
