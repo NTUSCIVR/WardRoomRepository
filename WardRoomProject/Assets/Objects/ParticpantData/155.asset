@@ -17,3 +17,4 @@ MonoBehaviour:
   m_hair: {fileID: 4300000, guid: 908a92ca689c5474cb6c83fb4d13f407, type: 3}
   m_hairmaterial: {fileID: 2100000, guid: 215910be56b0d7741b48b22829c6ae41, type: 2}
   m_name: Xuyang
+  m_photo: {fileID: 21300000, guid: a01942549e2b92e4bb361ee08db1c7c9, type: 3}
