@@ -17,3 +17,4 @@ MonoBehaviour:
   m_hair: {fileID: 4300000, guid: f6ee5141c74fafb4d9bb999056ebf78d, type: 3}
   m_hairmaterial: {fileID: 2100000, guid: 2c60acddc03edab4b8e8422bf276337e, type: 2}
   m_name: Chenge
+  m_photo: {fileID: 21300000, guid: 023e5423112f4554389f192f27b36c29, type: 3}

@@ -16,4 +16,5 @@ MonoBehaviour:
   m_headmaterial: {fileID: 2100000, guid: 9c89543bbb666ff42ab3dd08ef337632, type: 2}
   m_hair: {fileID: 4300000, guid: f6ee5141c74fafb4d9bb999056ebf78d, type: 3}
   m_hairmaterial: {fileID: 2100000, guid: 2c60acddc03edab4b8e8422bf276337e, type: 2}
-  m_name: Nicole
+  m_name: 
+  m_photo: {fileID: 21300000, guid: a4a0727f909956d42b9c116ccb78b847, type: 3}
